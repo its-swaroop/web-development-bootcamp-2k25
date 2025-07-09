@@ -1,4 +1,4 @@
-#  WEB DESIGN — UI, UX, Color, Typography, Attention
+#  MODULE 2.4: WEB DESIGN — UI, UX, Color, Typography, Attention
 
 #### 1. Fundamental Principles of Web Design, UI, and UX
 
