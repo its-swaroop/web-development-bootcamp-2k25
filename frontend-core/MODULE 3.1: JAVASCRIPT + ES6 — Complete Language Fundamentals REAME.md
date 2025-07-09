@@ -1,4 +1,4 @@
-#  JAVASCRIPT + ES6 — Complete Language Fundamentals
+#  MODULE 3.1: JAVASCRIPT + ES6 — Complete Language Fundamentals
 
 
 #### A. Comparing JavaScript with Markup & Stylesheet Languages
