@@ -1,4 +1,4 @@
-#  DOM — Document Object Model
+#  MODULE 3.0: DOM — Document Object Model
 
 #### 1. Tree Structure of HTML-Based Websites
 
