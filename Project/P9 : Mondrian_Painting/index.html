@@ -1,106 +1,94 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-  <title>Flexbox Pricing Table</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Sono:wght@400;700&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mondrian Project</title>
   <style>
+    /* 
+    Write your CSS here 
+    Line Colour: #000
+    White: #F0F1EC
+    Red: #E72F24
+    Black: #232629
+    Blue: #004592
+    Yellow: #F9D01E
+    */
     body {
-      font-family: 'Sono', sans-serif;
-    }
-
-    .pricing-container {
       display: flex;
       justify-content: center;
       align-items: center;
       height: 100vh;
-      gap: 2rem;
-    }
-
-    .pricing-plan {
-      flex: 1;
-      max-width: 400px;
-      padding: 20px;
-      background-color: #f2f2f2;
-      border-radius: 5px;
-      text-align: center;
-    }
-
-    .plan-title {
-      font-size: 24px;
-      font-weight: bold;
-      margin-bottom: 10px;
-    }
-
-    .plan-price {
-      font-size: 48px;
-      font-weight: bold;
-      margin-bottom: 10px;
-    }
-
-    .plan-features {
-      list-style: none;
-      padding: 0;
       margin: 0;
+      padding: 0;
     }
 
-    .plan-features li {
-      margin-bottom: 20px;
+    .container {
+      height: 748px;
+      width: 748px;
+      display: grid;
+      background-color: #000;
+      grid-template-columns: 320px 198px 153px 50px;
+      grid-template-rows: 414px 130px 155px 22px;
+      gap: 9px;
     }
 
-    .plan-button {
-      padding: 10px;
-      background-color: #ff6600;
-      color: #fff;
-      border-radius: 5px;
-      border: none;
+    .item {
+      background-color: #F0F1EC;
     }
 
-    @media (max-width: 1250px) {
-      .pricing-container {
-        flex-direction: column;
-        height: 100%;
-      }
+    .red {
+      background-color: #E72F24;
+    }
+
+    .white1 {
+      grid-column: span 3;
+    }
+
+    .white2 {
+      grid-row: span 2;
+    }
+
+    .white3 {
+      grid-area: 2 / 2 / 4 /4
+    }
+
+    .blue {
+      background-color: #004592;
+      border-bottom: 10px solid #000;
+    }
+
+    .white4 {
+      grid-row: span 2;
+    }
+
+    .yellow {
+      background-color: #F9D01E;
+    }
+
+    .black {
+      background-color: #232629;
     }
   </style>
 </head>
 
 <body>
-  <div class="pricing-container">
-    <div class="pricing-plan">
-      <div class="plan-title">Basic</div>
-      <div class="plan-price">$11.99/month</div>
-      <ul class="plan-features">
-        <li>✅ 10GB Storage</li>
-        <li>✅ 1 User</li>
-        <li>🚫 Support</li>
-      </ul>
-      <button class="plan-button">Sign Up</a>
-    </div>
-    <div class="pricing-plan">
-      <div class="plan-title">Standard</div>
-      <div class="plan-price">$19.99/month</div>
-      <ul class="plan-features">
-        <li>✅ 50GB Storage</li>
-        <li>✅ 5 Users</li>
-        <li>✅ Phone &amp; Email Support</li>
-      </ul>
-      <button class="plan-button">Sign Up</a>
-    </div>
-    <div class="pricing-plan">
-      <div class="plan-title">Premium</div>
-      <div class="plan-price">$49.99/month</div>
-      <ul class="plan-features">
-        <li>✅ 100GB Storage</li>
-        <li>✅ 10 Users</li>
-        <li>✅ 24/7 Support</li>
-      </ul>
-      <button class="plan-button">Sign Up</a>
-    </div>
-  </div>
+  <!-- Write your HTML here -->
 
+  <div class="container">
+    <div class="item red"></div>
+    <div class="item white1"></div>
+    <div class="item white2"></div>
+    <div class="item white3"></div>
+
+    <div class="item blue"></div>
+    <div class="item white4"></div>
+
+    <div class="item"></div>
+    <div class="item yellow"></div>
+    <div class="item black"></div>
+  </div>
 </body>
 
 </html>
