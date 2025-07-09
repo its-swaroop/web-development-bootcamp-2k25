@@ -3,11 +3,11 @@
 HINT: To fiure out which Bootstrap components/snippets are used. Refer to the PDF below:
 https://github.com/appbrewery/tindog/blob/main/Bootstrap-snippets.pdf
 
-<img src="./goal_images/title-goal.png" alt="title-page-img" width=25% />
-<img src="./goal_images/features-goal.png" alt="feature-page-img" width=25% />
-<img src="./goal_images/testimonial-goal.png" alt="testimonial-page-img" width=25% />
-<img src="./goal_images/pricing-goal.png" alt="pricing-page-img" width=25% />
-<img src="./goal_images/footer-goal.png" alt="footer-page-img" width=25% />
+<!--<img src="../goal_images/title-goal.png" alt="title-page-img" width=25% />
+<img src="../goal_images/features-goal.png" alt="feature-page-img" width=25% />
+<img src="../goal_images/testimonial-goal.png" alt="testimonial-page-img" width=25% />
+<img src="../goal_images/pricing-goal.png" alt="pricing-page-img" width=25% />
+<img src="../goal_images/footer-goal.png" alt="footer-page-img" width=25% /> -->
 
 ## SVGs:
 
