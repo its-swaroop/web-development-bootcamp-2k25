@@ -1,4 +1,4 @@
-# BOOTSTRAP — CSS Framework for Fast, Responsive Design
+# MODULE 2.3 : BOOTSTRAP — CSS Framework for Fast, Responsive Design
 
 #### 1. Native CSS vs Bootstrap
 
