@@ -1,4 +1,4 @@
-#  REACT.JS — Frontend with Components and Hooks
+#  MODULE 4.0: REACT.JS — Frontend with Components and Hooks
 
 #### 1. Introduction to React
 
