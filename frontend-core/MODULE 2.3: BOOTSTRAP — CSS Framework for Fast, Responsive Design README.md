@@ -1,4 +1,4 @@
-# MODULE 2.3: BOOTSTRAP — CSS Framework for Fast, Responsive Design
+# BOOTSTRAP — CSS Framework for Fast, Responsive Design
 
 #### 1. Native CSS vs Bootstrap
 
@@ -11,6 +11,7 @@
 
 **Conclusion:** Use CSS when you need custom behavior. Use Bootstrap to move fast with a professional look.
 
+---
 
 #### 2. Installing Bootstrap in a Project
 
@@ -25,6 +26,7 @@
 
 Download from [getbootstrap.com](https://getbootstrap.com) → include `bootstrap.min.css` and `bootstrap.bundle.min.js` in your project folder.
 
+---
 
 #### 3. The Bootstrap 12-Column Grid System
 
@@ -42,6 +44,8 @@ Download from [getbootstrap.com](https://getbootstrap.com) → include `bootstra
   </div>
 </div>
 ```
+
+---
 
 
 #### 4. Bootstrap Components (Core)
@@ -89,6 +93,8 @@ Download from [getbootstrap.com](https://getbootstrap.com) → include `bootstra
 ```
 
 
+---
+
 #### 5. Bootstrap Icons
 
 Use official CDN:
@@ -103,6 +109,7 @@ Use like:
 <i class="bi bi-alarm"></i>
 ```
 
+---
 
 #### 6. Snippets and Templates
 
@@ -110,11 +117,12 @@ Use like:
 * **Third-party**: Start Bootstrap, BootstrapMade, Bootsnipp
 * Use for navbars, pricing tables, login pages, etc.
 
-
-#### Final Thoughts:
+<blockquote>
+ Final Thoughts:
 
 * Bootstrap = speed + consistency
 * Combine with custom CSS when you need personalization
 * Ideal for job prep: most service-level jobs expect quick prototyping skills
+</blockquote>
 
 <footer>TO BE CONT...</footer>
